@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" label="NeedIt" max_length="40" name="x_58872_needit_needit" sizeclass="4" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Option" mandatory="true" max_length="40" name="u_choice_1" type="string">
+            <choice>
+                <element inactive_on_update="false" label="monday" sequence="0" value="monday"/>
+                <element inactive_on_update="false" label="tuesday" sequence="1" value="tuesday"/>
+                <element inactive_on_update="false" label="wenesday" sequence="2" value="wenesday"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Laperatory" max_length="40" name="u_string_3" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Dictional" max_length="255" name="u_string_full_utf8_4" type="string_full_utf8"/>
+    </element>
+</database>
